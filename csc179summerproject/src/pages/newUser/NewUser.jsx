@@ -1,4 +1,15 @@
 import "./newUser.css";
+import { createVendiaClient } from '@vendia/client';
+
+const client = createVendiaClient({
+  apiUrl: `https://6g19zxpen6.execute-api.us-west-1.amazonaws.com/graphql/`,
+  websocketUrl: `wss://uwymw7i1qb.execute-api.us-west-1.amazonaws.com/graphql`,
+});
+
+//const response = await Employee.Name.add({
+ // description: 'Dan Smith',
+ // type: "string"
+//});
 
 export default function NewUser() {
   return (

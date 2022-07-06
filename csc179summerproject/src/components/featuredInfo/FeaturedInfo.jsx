@@ -16,6 +16,7 @@ export default function FeaturedInfo() {
         </div>
         <span className="featuredSub">Create new Employee</span>
       </div>
+
       <div className="featuredItem">
         <span className="featuredTitle"></span>
         <div className="featuredMoneyContainer">
@@ -26,6 +27,7 @@ export default function FeaturedInfo() {
         </div>
         <span className="featuredSub">View aggregate data</span>
       </div>
+
       <div className="featuredItem">
         <span className="featuredTitle"></span>
         <div className="featuredMoneyContainer">
@@ -34,8 +36,11 @@ export default function FeaturedInfo() {
             <ShowChartIcon className="Icon"/>
           </span>
         </div>
+
+   
         <span className="featuredSub"></span>
       </div>
+      
     </div>
   );
 }
